@@ -2,18 +2,24 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="Nexus 10" />
+        <device id="pixel_3_xl" />
+        <device id="pixel_xl" />
+        <device id="pixel" />
+        <device id="pixel_2" />
+      </config>
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcf0df91-d92d-4b77-9690-5a9d51583b38" name="Default Changelist" comment="" />
+    <list default="true" id="05456572-1b37-4024-bd27-b1b5f89e5998" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_XL_API_Q" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="3.3_WQVGA_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -33,14 +39,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1aZBvh27VREocwfHPHqS66x9i4D" />
+  <component name="ProjectId" id="1cfqWRBZFx1NSI86vhfR4YmYOjH" />
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-  </component>
-  <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="com.example.aimusicplayer" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,11 +122,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fcf0df91-d92d-4b77-9690-5a9d51583b38" name="Default Changelist" comment="" />
-      <created>1586933467972</created>
+      <changelist id="05456572-1b37-4024-bd27-b1b5f89e5998" name="Default Changelist" comment="" />
+      <created>1590930026786</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586933467972</updated>
+      <updated>1590930026786</updated>
     </task>
     <servers />
   </component>

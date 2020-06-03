@@ -36,7 +36,6 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="25dp"
             android:textStyle="italic|bold"
-
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="478dp"></TextView>
 
@@ -58,7 +57,7 @@
             android:src="@drawable/previous"
             android:visibility="invisible"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteX="35dp"
             tools:layout_editor_absoluteY="0dp">
 
         </ImageView>
@@ -72,7 +71,7 @@
             android:src="@drawable/next"
             android:visibility="invisible"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteX="245dp"
             tools:layout_editor_absoluteY="0dp">
 
         </ImageView>
@@ -86,7 +85,7 @@
             android:src="@drawable/pause"
             android:visibility="invisible"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteX="136dp"
             tools:layout_editor_absoluteY="0dp">
 
         </ImageView>
@@ -105,8 +104,8 @@
         android:textColor="@android:color/white"
         android:textSize="16dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-37dp"
-        tools:layout_editor_absoluteY="655dp"></Button>
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="655dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

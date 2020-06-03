@@ -12,7 +12,9 @@
         android:id="@+id/upper"
         android:layout_width="match_parent"
         android:layout_height="330dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp">
 
         <ImageView
             android:id="@+id/logo"
@@ -58,8 +60,8 @@
             android:src="@drawable/previous"
             android:visibility="invisible"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="48dp"
-            tools:layout_editor_absoluteY="0dp">
+            tools:layout_editor_absoluteX="197dp"
+            tools:layout_editor_absoluteY="16dp">
 
         </ImageView>
 
@@ -72,21 +74,7 @@
             android:src="@drawable/next"
             android:visibility="invisible"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="294dp"
-            tools:layout_editor_absoluteY="0dp">
-
-        </ImageView>
-
-        <ImageView
-            android:id="@+id/play_pause_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/previous_btn"
-            android:layout_toRightOf="@+id/previous_btn"
-            android:src="@drawable/pause"
-            android:visibility="invisible"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteX="711dp"
             tools:layout_editor_absoluteY="0dp">
 
         </ImageView>
@@ -107,6 +95,20 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-37dp"
         tools:layout_editor_absoluteY="655dp"></Button>
+
+    <ImageView
+        android:id="@+id/play_pause_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/previous_btn"
+        android:layout_toRightOf="@+id/previous_btn"
+        android:src="@drawable/pause"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="481dp"
+        tools:layout_editor_absoluteY="390dp">
+
+    </ImageView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

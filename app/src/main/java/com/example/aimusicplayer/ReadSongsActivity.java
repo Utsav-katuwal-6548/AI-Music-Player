@@ -19,6 +19,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 public class ReadSongsActivity extends AppCompatActivity {
+    //variable decleration
     private String[] itemsAll;
     private ListView mSongsList;
 
@@ -58,7 +59,7 @@ public class ReadSongsActivity extends AppCompatActivity {
 
     //this method will read all the audio file from mobile storage
     public ArrayList<File> readOnlyAudioFile(File file)
-    {
+        {
         ArrayList<File> arrayList = new ArrayList<>();
         File[] allFiles = file.listFiles();
         for(File individualFile : allFiles)

@@ -117,16 +117,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //it will listen the touch on any part of the screen since it's a Relative Layout
+        //it will listen the touch on any part of the screen
         parentRelativeLayout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event)
             {
-                switch (event.getAction())
-                {
-                    //action down refers to long press on screen
-                    case MotionEvent.ACTION_DOWN:
-                        speechRecognizer.startListening(speechRecognizerIntent);
+                        switch (event.getAction())
+                        {
+                            //action down refers to long press on screen
+                            case MotionEvent.ACTION_DOWN:
+                                speechRecognizer.startListening(speechRecognizerIntent);
                         keeper = "";
                         break;
                     //action up refers to single press on screen
